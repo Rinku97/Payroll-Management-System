@@ -10,9 +10,9 @@ public class DbConn {
 	{
 		try
 		{
-			Class.forName("com.mysql.cj.jdbc.Driver");
-            c=DriverManager.getConnection("jdbc:mysql:///payrollsystem","root","");
-            s = c.createStatement();
+		    Class.forName("com.mysql.cj.jdbc.Driver");
+                    c=DriverManager.getConnection("jdbc:mysql:///payrollsystem","root","");
+                    s = c.createStatement();
 		}
 		
 		catch(Exception e)
